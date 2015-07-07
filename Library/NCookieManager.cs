@@ -106,7 +106,7 @@ namespace GoogleProxy
             cookie.LastestRequestTime = DateTime.Now;
             NCookies = NCookies.OrderBy(x => x.LastestRequestTime).ToList<NCookie>();
             TotalRequestCount++;
-            if (TotalRequestCount <= MaxRequestCount || (TotalRequestCount > MaxRequestCount && TotalRequestCount / MaxRequestCount == 0))
+            if (TotalRequestCount <= MaxRequestCount || (TotalRequestCount > MaxRequestCount && TotalRequestCount % MaxRequestCount == 0))
             {
                 Request();
             }

@@ -7,3 +7,9 @@ D:\项目文档\Google项目\GoogleProxy\GoogleProxy\obj\Debug\GoogleProxy.pdb
 D:\项目文档\ScholarProxy\GoogleProxy\bin\Debug\GoogleProxy.exe.config
 D:\项目文档\ScholarProxy\GoogleProxy\obj\Debug\GoogleProxy.exe
 D:\项目文档\ScholarProxy\GoogleProxy\obj\Debug\GoogleProxy.pdb
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\bin\Debug\GoogleProxy.exe.config
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\obj\Debug\GoogleProxy.exe
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\obj\Debug\GoogleProxy.pdb
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\bin\Debug\GoogleProxy.exe
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\bin\Debug\GoogleProxy.pdb
+F:\兴趣项目\GoogleScholarProxy\trunk\GoogleProxy\obj\Debug\GoogleProxy.csprojResolveAssemblyReference.cache

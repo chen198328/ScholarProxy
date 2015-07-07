@@ -10,19 +10,25 @@ namespace GoogleProxy
     {
         static void Main(string[] args)
         {
-            string url = "http://scholar.google.com/scholar?q=history&hl=zh-CN&as_sdt=0,5";
+      
+            string[] keywords = new string[] { "keyword", "application", "computer", "nature", "sciecne" };
             Random random = new Random();
             HttpClientHelper helper = new HttpClientHelper();
+            int count = 0;
             while (true)
             {
+                string url = "http://scholar.google.com/scholar?q={0}&hl=zh-CN&as_sdt=0,5";
+                count++;
+                string keyword = keywords[count % keywords.Length];
                 int interval = random.Next(1000, 5000);
                 Thread.Sleep(interval);
                 try
                 {
+                    url = string.Format(url, keyword);
                     string html = helper.GetHtml(url);
-                    if (html != null && html.Contains("Structure and change in economic"))
+                    if (html != null && html.Contains("<b>"+keyword))
                     {
-                        Console.WriteLine(DateTime.Now + ":" + true);
+                        Console.WriteLine(DateTime.Now + ":" + true+ " "+count);
                     }
                     else
                     {

@@ -3,3 +3,8 @@ D:\项目文档\ScholarProxy\Library\bin\Debug\Library.pdb
 D:\项目文档\ScholarProxy\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
 D:\项目文档\ScholarProxy\Library\obj\Debug\Library.dll
 D:\项目文档\ScholarProxy\Library\obj\Debug\Library.pdb
+F:\兴趣项目\GoogleScholarProxy\trunk\Library\bin\Debug\Library.dll
+F:\兴趣项目\GoogleScholarProxy\trunk\Library\bin\Debug\Library.pdb
+F:\兴趣项目\GoogleScholarProxy\trunk\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+F:\兴趣项目\GoogleScholarProxy\trunk\Library\obj\Debug\Library.dll
+F:\兴趣项目\GoogleScholarProxy\trunk\Library\obj\Debug\Library.pdb
